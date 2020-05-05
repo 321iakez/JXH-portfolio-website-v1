@@ -1,0 +1,45 @@
+#sidebar {
+    background-color: burlywood;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 130px;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+.hide {
+    height: 0px;
+    overflow: hidden;
+    transition: all 50ms linear;
+}
+
+.open {
+    height: 300px;
+}
+li {
+    list-style-type: none;
+}
+
+button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
