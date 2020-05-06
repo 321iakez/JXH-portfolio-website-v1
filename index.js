@@ -15,3 +15,15 @@ function expand() {
         }
     }
 }
+
+function showFurniture(){
+    alert("furniture");
+}
+
+function showPeople(){
+    alert("people");
+}
+
+function showMisc(){
+    alert("misc");
+}
