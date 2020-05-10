@@ -7,14 +7,13 @@
 img {
     max-height: 300px;
     max-width: auto;
-    padding-right: 30px;
 }
 #landing {
     position: absolute;
     left: 19%;
     top: 170px;
     width: 75%;
-    height: 50%;
+    height: 300px;
 }
 a {
     color: black;
@@ -52,4 +51,136 @@ button {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.i1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 221px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.i2 {
+    position: absolute;
+    top: 0px;
+    left: 251px;
+    height: 100%;
+    width: 206px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.after1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 221px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.i1:hover .after1{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.after2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 206px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.i2:hover .after2{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.i3 {
+    position: absolute;
+    top: 0px;
+    left: 487px;
+    height: 100%;
+    width: 203px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.after3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 203px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.i3:hover .after3{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.i4 {
+    position: absolute;
+    top: 0px;
+    left: 720px;
+    height: 100%;
+    width: 303px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.after4{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 303px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.i4:hover .after4{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+button{
+    height:20px; 
+    width:60px; 
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.success {
+    border-color: #4CAF50;
+    color: green;
+}
+  
+.success:hover {
+    color: white;
+    border-color: white;
+}
