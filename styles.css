@@ -5,7 +5,7 @@
     top: 130px;
 }
 img {
-    max-height: 300px;
+    max-height: 100%;
     max-width: auto;
 }
 #landing {
@@ -14,6 +14,8 @@ img {
     top: 170px;
     width: 75%;
     height: 300px;
+    display: block;
+    z-index: -1;
 }
 a {
     color: black;
@@ -183,4 +185,33 @@ button{
 .success:hover {
     color: white;
     border-color: white;
+}
+
+
+#alphabetSpotlight{
+    position: absolute;
+    top: 75px;
+    left: 19%;
+    width: 1000px;
+    height: 600px;
+    background-color: grey;
+    display: none;
+}
+
+.alphabetShowcase{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 441px;
+    display: inline-block;
+}
+
+.alphabetDescription{
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    left: 441px;
+    height: 100%;
+    width: 559px;
 }

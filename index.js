@@ -28,3 +28,8 @@ function showMisc(){
     alert("misc");
 }
 
+function spotlightAlphabet(){
+    var alpha = document.getElementById("alphabetSpotlight");
+    var landing = document.getElementById("landing");
+    alpha.style.display = "block";
+}
