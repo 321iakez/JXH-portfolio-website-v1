@@ -1,4 +1,4 @@
 alphabet: 1:0.73489
 body1: 1:0.68664
-body2: 1:67557
+body2: 1:0.67557
 giraffeMachine: 1:1.00900
