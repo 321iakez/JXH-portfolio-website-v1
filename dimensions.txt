@@ -9,6 +9,7 @@ FURNITURE
 
 chairHorizon: 1: 0.8053
 chairSpooky: 1: 1.1713
+cabinet: 1: 1:1.4
 
 ROOM
 
@@ -22,3 +23,9 @@ giraffeMachine: 1:1.00900
 alphabet: 1:0.73489
 buddhaMichelle: 1: 0.7329
 strangeTeapot: 1: 0.73374
+
+SPOONS
+spoonBack: 1:1.3333
+spoonFront: 1:1.3333
+spoonStanding: 1:0.75
+

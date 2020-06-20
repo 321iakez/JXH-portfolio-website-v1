@@ -12,13 +12,13 @@ img {
     max-height: 100%;
     max-width: auto;
 }
-#landing {
+#body {
     position: absolute;
-    left: 19%;
+    left: 350px;
     top: 170px;
-    width: 75%;
+    width: 1600px;
     height: 300px;
-    display: block;
+    display: none;
     z-index: -1;
 }
 a {
@@ -60,20 +60,12 @@ button {
     cursor: pointer;
 }
 
+/* BODY PAGE */
+
 .i1{
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 100%;
-    width: 221px;
-    padding-right: 30px;
-    display: inline-block;
-}
-
-.i2 {
-    position: absolute;
-    top: 0px;
-    left: 251px;
     height: 100%;
     width: 206px;
     padding-right: 30px;
@@ -84,7 +76,7 @@ button {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 221px;
+    width: 206px;
     height: 100%;
     display: none;
     color: #FFF;
@@ -95,11 +87,21 @@ button {
     background: rgba(0, 0, 0, 0.6);
 }
 
+.i2 {
+    position: absolute;
+    top: 0px;
+    left: 236px;
+    height: 100%;
+    width: 203px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
 .after2{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 206px;
+    width: 203px;
     height: 100%;
     display: none;
     color: #FFF;
@@ -113,9 +115,9 @@ button {
 .i3 {
     position: absolute;
     top: 0px;
-    left: 487px;
+    left: 469px;
     height: 100%;
-    width: 203px;
+    width: 205px;
     padding-right: 30px;
     display: inline-block;
 }
@@ -124,7 +126,7 @@ button {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 203px;
+    width: 205px;
     height: 100%;
     display: none;
     color: #FFF;
@@ -138,9 +140,9 @@ button {
 .i4 {
     position: absolute;
     top: 0px;
-    left: 720px;
+    left: 704px;
     height: 100%;
-    width: 303px;
+    width: 203px;
     padding-right: 30px;
     display: inline-block;
 }
@@ -149,13 +151,202 @@ button {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 303px;
+    width: 203px;
     height: 100%;
     display: none;
     color: #FFF;
 }
 
 .i4:hover .after4{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* FURNITURE PAGE */
+
+#furniture {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 1600px;
+    height: 300px;
+    display: block;
+    z-index: -1;
+}
+
+.f1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 242px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afterf1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 242px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.f1:hover .afterf1{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.f2 {
+    position: absolute;
+    top: 0px;
+    left: 272px;
+    height: 100%;
+    width: 351px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afterf2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 351px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.f2:hover .afterf2{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.f3 {
+    position: absolute;
+    top: 0px;
+    left: 653px;
+    height: 100%;
+    width: 420px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afterf3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 420px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.f3:hover .afterf3{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* BODY PAGE */
+
+.m1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 206px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afterm1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 206px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.m1:hover .afterm1{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.m2 {
+    position: absolute;
+    top: 0px;
+    left: 236px;
+    height: 100%;
+    width: 203px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afterm2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 203px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.m2:hover .afterm2{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.m3 {
+    position: absolute;
+    top: 0px;
+    left: 469px;
+    height: 100%;
+    width: 205px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afterm3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 205px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.m3:hover .afterm3{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.m4 {
+    position: absolute;
+    top: 0px;
+    left: 704px;
+    height: 100%;
+    width: 203px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afterm4{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 203px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.m4:hover .afterm4{
     display: block;
     background: rgba(0, 0, 0, 0.6);
 }
@@ -197,7 +388,7 @@ button{
     position: absolute;
     top: 75px;
     left: 19%;
-    width: 60%;
+    width: 60vw;
     height: 600px;
     background-color: grey;
     display: none;
@@ -205,8 +396,8 @@ button{
 
 .alphabetShowcase{
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 75px;
+    left: 350px;
     height: 600px;
     display: inline-block;
 }
