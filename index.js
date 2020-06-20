@@ -31,5 +31,6 @@ function showMisc(){
 function spotlightAlphabet(){
     var alpha = document.getElementById("alphabetSpotlight");
     var landing = document.getElementById("landing");
-    alpha.style.display = "block";
+    alpha.style.display = "block";  
+    landing.style.display ="none";
 }

@@ -1,3 +1,7 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 #sidebar {
     width: 100px;
     position: absolute;
@@ -193,7 +197,7 @@ button{
     position: absolute;
     top: 75px;
     left: 19%;
-    width: 1400px;
+    width: 60%;
     height: 600px;
     background-color: grey;
     display: none;
@@ -204,7 +208,6 @@ button{
     top: 0px;
     left: 0px;
     height: 600px;
-    width: 441px;
     display: inline-block;
 }
 
@@ -212,8 +215,7 @@ button{
     position: absolute;
     display: inline-block;
     top: 0px;
-    left: 441px;
+    left: 55%;
     height: 100%;
-    width: 959px;
-    background-color: white;
+    width: 45%;
 }
