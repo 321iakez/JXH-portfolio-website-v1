@@ -193,7 +193,7 @@ button{
     position: absolute;
     top: 75px;
     left: 19%;
-    width: 1000px;
+    width: 1400px;
     height: 600px;
     background-color: grey;
     display: none;
@@ -214,5 +214,6 @@ button{
     top: 0px;
     left: 441px;
     height: 100%;
-    width: 559px;
+    width: 959px;
+    background-color: white;
 }
