@@ -12,6 +12,7 @@ img {
     max-height: 100%;
     max-width: auto;
 }
+
 #body {
     position: absolute;
     left: 350px;
@@ -249,14 +250,23 @@ button {
     background: rgba(0, 0, 0, 0.6);
 }
 
-/* BODY PAGE */
+/* MISC PAGE */
 
+#misc {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 1600px;
+    height: 300px;
+    display: none;
+    z-index: -1;
+}
 .m1{
     position: absolute;
     top: 0px;
     left: 0px;
     height: 100%;
-    width: 206px;
+    width: 303px;
     padding-right: 30px;
     display: inline-block;
 }
@@ -265,7 +275,7 @@ button {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 206px;
+    width: 303px;
     height: 100%;
     display: none;
     color: #FFF;
@@ -279,9 +289,9 @@ button {
 .m2 {
     position: absolute;
     top: 0px;
-    left: 236px;
+    left: 333px;
     height: 100%;
-    width: 203px;
+    width: 220px;
     padding-right: 30px;
     display: inline-block;
 }
@@ -290,7 +300,7 @@ button {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 203px;
+    width: 220px;
     height: 100%;
     display: none;
     color: #FFF;
@@ -304,9 +314,9 @@ button {
 .m3 {
     position: absolute;
     top: 0px;
-    left: 469px;
+    left: 583px;
     height: 100%;
-    width: 205px;
+    width: 220px;
     padding-right: 30px;
     display: inline-block;
 }
@@ -315,7 +325,7 @@ button {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 205px;
+    width: 220px;
     height: 100%;
     display: none;
     color: #FFF;
@@ -329,9 +339,9 @@ button {
 .m4 {
     position: absolute;
     top: 0px;
-    left: 704px;
+    left: 833px;
     height: 100%;
-    width: 203px;
+    width: 220px;
     padding-right: 30px;
     display: inline-block;
 }
@@ -340,13 +350,187 @@ button {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 203px;
+    width: 220px;
     height: 100%;
     display: none;
     color: #FFF;
 }
 
 .m4:hover .afterm4{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* SPOON PAGE */
+
+#spoon {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 1600px;
+    height: 300px;
+    display: none;
+    z-index: -1;
+}
+
+.s1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 400px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afters1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.s1:hover .afters1{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.s2 {
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    height: 100%;
+    width: 400px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afters2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.s2:hover .afters2{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.s3 {
+    position: absolute;
+    top: 0px;
+    left: 860px;
+    height: 100%;
+    width: 225px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afters3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 225px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.s3:hover .afters3{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* ROOM PAGE */
+
+#room {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 1600px;
+    height: 300px;
+    display: none;
+    z-index: -1;
+}
+
+.r1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 225px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afterr1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 225px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.r1:hover .afterr1{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.r2 {
+    position: absolute;
+    top: 0px;
+    left: 255px;
+    height: 100%;
+    width: 231px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afterr2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 231px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.r2:hover .afterr2{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.r3 {
+    position: absolute;
+    top: 0px;
+    left: 516px;
+    height: 100%;
+    width: 211px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.afterr3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 211px;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.r3:hover .afterr3{
     display: block;
     background: rgba(0, 0, 0, 0.6);
 }
@@ -374,8 +558,8 @@ button{
 }
   
 .success {
-    border-color: #4CAF50;
-    color: green;
+    border-color: white;
+    color: white;
 }
   
 .success:hover {
@@ -384,29 +568,355 @@ button{
 }
 
 
-#alphabetSpotlight{
-    position: absolute;
-    top: 75px;
-    left: 19%;
-    width: 60vw;
-    height: 600px;
-    background-color: grey;
-    display: none;
-}
+/* misc showcase */
 
-.alphabetShowcase{
+#giraffePicture {
     position: absolute;
-    top: 75px;
     left: 350px;
+    top: 170px;
+    width: 606px;
     height: 600px;
-    display: inline-block;
+    display: none;
+    z-index: -1;
 }
 
-.alphabetDescription{
+#giraffeDescription {
     position: absolute;
-    display: inline-block;
-    top: 0px;
-    left: 55%;
-    height: 100%;
-    width: 45%;
+    left: 956px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#alphabetPicture {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 440px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#alphabetDescription {
+    position: absolute;
+    left: 790px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#buddhaPicture {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 440px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#buddhaDescription {
+    position: absolute;
+    left: 790px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#teapotPicture {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 440px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#teapotDescription {
+    position: absolute;
+    left: 790px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+
+/* spoon showcase */
+
+#s1p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 800px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#s1d {
+    position: absolute;
+    left: 1150px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#s2p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 800px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#s2d {
+    position: absolute;
+    left: 1150px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#s3p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 450px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#s3d {
+    position: absolute;
+    left: 800px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+
+/* room showcase */
+
+#r1p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 450px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#r1d {
+    position: absolute;
+    left: 800px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#r2p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 462px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#r2d {
+    position: absolute;
+    left: 812px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#r3p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 422px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#r3d {
+    position: absolute;
+    left: 772px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+/* body showcase */
+
+#b1p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 412px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#b1d {
+    position: absolute;
+    left: 762px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#b2p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 406px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#b2d {
+    position: absolute;
+    left: 756px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#b3p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 410px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#b3d {
+    position: absolute;
+    left: 760px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#b4p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 406px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#b4d {
+    position: absolute;
+    left: 756px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+
+/* furniture showcase */
+
+#f1p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 484px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#f1d {
+    position: absolute;
+    left: 834px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#f2p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 702px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#f2d {
+    position: absolute;
+    left: 1052px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#f3p {
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    width: 840px;
+    height: 600px;
+    display: none;
+    z-index: -1;
+}
+
+#f3d {
+    position: absolute;
+    left: 1190px;
+    top: 170px;
+    width: 300px;
+    height: 600px;
+    display: none;
+    z-index: -1;
 }
