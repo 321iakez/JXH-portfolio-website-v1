@@ -3,24 +3,77 @@ var items = ul.getElementsByTagName("li");
 for(var i = 0; i < items.length; i++){
     items[i].style.display = "block";
 }
-function expand() {
-    var ul = document.getElementById("collapsible");
-    var items = ul.getElementsByTagName("li");
-    for(var i  = 0; i < items.length; i++){
-        
-        if(items[i].style.display === "none"){
-            items[i].style.display = "block";
-        } else {
-            items[i].style.display = "none";
-        }
+function toggleExpand() {
+    var list = document.getElementById('collapsible');
+    if(list.style.display === 'none'){
+        list.style.display = 'block';
+    } else {
+        list.style.display = 'none';
     }
 }
 
-function showContact(){
+function expand(){
+    var list = document.getElementById('collapsible');
+    list.style.display = 'block';
+}
 
+function showAbout(){
+    document.getElementById('furnitureList').innerHTML = 'Furniture';
+    document.getElementById('peopleList').innerHTML = 'People';
+    document.getElementById('interiorList').innerHTML = 'Interior';
+    document.getElementById('objectsList').innerHTML = 'Objects';
+    document.getElementById('miscList').innerHTML = 'Misc';
+    document.getElementById('aboutList').innerHTML = 'About &#8226';
+    document.getElementById('about').style.display = 'block';
+    document.getElementById('furniture').style.display = 'none';
+    document.getElementById('body').style.display = 'none';
+    document.getElementById('misc').style.display = 'none';
+    document.getElementById('spoon').style.display = 'none';
+    document.getElementById('room').style.display = 'none';
+    document.getElementById('giraffePicture').style.display = 'none';
+    document.getElementById('giraffeDescription').style.display = 'none';
+    document.getElementById('alphabetPicture').style.display = 'none';
+    document.getElementById('alphabetDescription').style.display = 'none';
+    document.getElementById('buddhaPicture').style.display = 'none';
+    document.getElementById('buddhaDescription').style.display = 'none';
+    document.getElementById('teapotPicture').style.display = 'none';
+    document.getElementById('teapotDescription').style.display = 'none';
+    document.getElementById('b1d').style.display = 'none';
+    document.getElementById('b1p').style.display = 'none';
+    document.getElementById('b2d').style.display = 'none';
+    document.getElementById('b2p').style.display = 'none';
+    document.getElementById('b3d').style.display = 'none';
+    document.getElementById('b3p').style.display = 'none';
+    document.getElementById('b4d').style.display = 'none';
+    document.getElementById('b4p').style.display = 'none';
+    document.getElementById('r1d').style.display = 'none';
+    document.getElementById('r1p').style.display = 'none';
+    document.getElementById('r2d').style.display = 'none';
+    document.getElementById('r2p').style.display = 'none';
+    document.getElementById('r3d').style.display = 'none';
+    document.getElementById('r3p').style.display = 'none';
+    document.getElementById('s1d').style.display = 'none';
+    document.getElementById('s1p').style.display = 'none';
+    document.getElementById('s2d').style.display = 'none';
+    document.getElementById('s2p').style.display = 'none';
+    document.getElementById('s3d').style.display = 'none';
+    document.getElementById('s3p').style.display = 'none';
+    document.getElementById('f1d').style.display = 'none';
+    document.getElementById('f1p').style.display = 'none';
+    document.getElementById('f2d').style.display = 'none';
+    document.getElementById('f2p').style.display = 'none';
+    document.getElementById('f3d').style.display = 'none';
+    document.getElementById('f3p').style.display = 'none';
 }
 
 function showFurniture(){
+    document.getElementById('furnitureList').innerHTML = 'Furniture &#8226';
+    document.getElementById('peopleList').innerHTML = 'People';
+    document.getElementById('interiorList').innerHTML = 'Interior';
+    document.getElementById('objectsList').innerHTML = 'Objects';
+    document.getElementById('miscList').innerHTML = 'Misc';
+    document.getElementById('aboutList').innerHTML = 'About';
+    document.getElementById('about').style.display = 'none';
     document.getElementById('furniture').style.display = 'block';
     document.getElementById('body').style.display = 'none';
     document.getElementById('misc').style.display = 'none';
@@ -63,6 +116,13 @@ function showFurniture(){
 }
 
 function showPeople(){
+    document.getElementById('furnitureList').innerHTML = 'Furniture';
+    document.getElementById('peopleList').innerHTML = 'People &#8226';
+    document.getElementById('interiorList').innerHTML = 'Interior';
+    document.getElementById('objectsList').innerHTML = 'Objects';
+    document.getElementById('miscList').innerHTML = 'Misc';
+    document.getElementById('aboutList').innerHTML = 'About';
+    document.getElementById('about').style.display = 'none';
     document.getElementById('furniture').style.display = 'none';
     document.getElementById('body').style.display = 'block';
     document.getElementById('misc').style.display = 'none';
@@ -105,6 +165,14 @@ function showPeople(){
 }
 
 function showInterior(){
+    document.getElementById('furnitureList').innerHTML = 'Furniture';
+    document.getElementById('peopleList').innerHTML = 'People';
+    document.getElementById('interiorList').innerHTML = 'Interior &#8226';
+    document.getElementById('objectsList').innerHTML = 'Objects';
+    document.getElementById('miscList').innerHTML = 'Misc';
+    document.getElementById('aboutList').innerHTML = 'About';
+
+    document.getElementById('about').style.display = 'none';
     document.getElementById('furniture').style.display = 'none';
     document.getElementById('body').style.display = 'none';
     document.getElementById('misc').style.display = 'none';
@@ -147,6 +215,14 @@ function showInterior(){
 }
 
 function showObjects(){
+    document.getElementById('furnitureList').innerHTML = 'Furniture';
+    document.getElementById('peopleList').innerHTML = 'People';
+    document.getElementById('interiorList').innerHTML = 'Interior';
+    document.getElementById('objectsList').innerHTML = 'Objects &#8226';
+    document.getElementById('miscList').innerHTML = 'Misc';
+    document.getElementById('aboutList').innerHTML = 'About';
+
+    document.getElementById('about').style.display = 'none';
     document.getElementById('furniture').style.display = 'none';
     document.getElementById('body').style.display = 'none';
     document.getElementById('misc').style.display = 'none';
@@ -189,6 +265,14 @@ function showObjects(){
 }
 
 function showMisc(){
+    document.getElementById('furnitureList').innerHTML = 'Furniture';
+    document.getElementById('peopleList').innerHTML = 'People';
+    document.getElementById('interiorList').innerHTML = 'Interior';
+    document.getElementById('objectsList').innerHTML = 'Objects';
+    document.getElementById('miscList').innerHTML = 'Misc &#8226';
+    document.getElementById('aboutList').innerHTML = 'About';
+
+    document.getElementById('about').style.display = 'none';
     document.getElementById('furniture').style.display = 'none';
     document.getElementById('body').style.display = 'none';
     document.getElementById('misc').style.display = 'block';

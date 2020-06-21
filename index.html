@@ -12,16 +12,16 @@
     
     <div id="sidebar">
         <ul>
-            <li><a href="#" onclick="expand()" class="bold">Collections</a>
+            <li><a href="#" onclick="toggleExpand()" class="bold">Collections</a>
                 <ul id="collapsible">
-                    <li><a href="#" onclick="showFurniture()">- Furniture</a></li>
-                    <li><a href="#" onclick="showPeople()"> - People</a></li>
-                    <li><a href="#" onclick="showInterior()"> - Interior</a></li>
-                    <li><a href="#" onclick="showObjects()"> - Objects</a></li>
-                    <li><a href="#" onclick="showMisc()"> - Misc</a></li>
+                    <li class="indentedList"><a href="#" onclick="showFurniture()" id="furnitureList">Furniture </a></li>
+                    <li class="indentedList" ><a href="#" onclick="showPeople()" id="peopleList">People </a></li>
+                    <li class="indentedList" ><a href="#" onclick="showInterior()" id="interiorList">Interior </a></li>
+                    <li class="indentedList" ><a href="#" onclick="showObjects()" id="objectsList">Objects </a> </li>
+                    <li class="indentedList" ><a href="#" onclick="showMisc()" id="miscList">Misc </a></li>
                 </ul>
             </li>
-            <li><a href="#" class="bold" onclick="showAbout()">About</a></li>
+            <li ><a href="#" class="bold" onclick="showAbout()" id="aboutList">About &#8226</a></li>
         </ul>
 
         <br>
@@ -37,7 +37,7 @@
     
     <div id="about">
         Michelle Huang is a design student at the Rhode Island School of Design. <br>
-        Take a look through her collections! <br>
+        Take a look through her <a href="#" onclick="expand()"><span style="text-decoration: underline;">collections!</span></a>  <br>
         <br>
         :D
     </div>

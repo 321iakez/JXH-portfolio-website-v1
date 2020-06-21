@@ -2,6 +2,48 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+#aboutBullet {
+    display: inline;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#furnitureBullet {
+    display: none;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#peopleBullet {
+    display: none;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#interiorBullet {
+    display: none;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#objectsBullet {
+    display: none;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#miscBullet {
+    display: none;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+
+
+
+#collapsible {
+    display: none;
+}
 #sidebar {
     width: 100px;
     position: absolute;
@@ -9,8 +51,12 @@
     top: 130px;
 }
 
+.indentedList {
+    margin-left: 6px;
+    font-size: 15px;
+}
 #about {
-    display: none;
+    display: block;
     position: absolute;
     left: 300px;
     top:200px;
@@ -203,7 +249,7 @@ button {
     top: 170px;
     width: 1000px;
     height: 300px;
-    display: block;
+    display: none;
     z-index: -1;
 }
 
