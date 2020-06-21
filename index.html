@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     
-    <ul id="sidebar">
-        <li><a href="#" onclick="expand()" class="bold">Collections</a>
-            <ul id="collapsible">
-                <li><a href="#" onclick="showFurniture()">- Furniture</a></li>
-                <li><a href="#" onclick="showPeople()"> - People</a></li>
-                <li><a href="#" onclick="showInterior()"> - Interior</a></li>
-                <li><a href="#" onclick="showObjects()"> - Objects</a></li>
-                <li><a href="#" onclick="showMisc()"> - Misc</a></li>
-            </ul>
-        </li>
-        <li class="bold">Contact</li>
-        <li class="bold">About</li>
-    </ul>
+    <div id="sidebar">
+        <ul>
+            <li><a href="#" onclick="expand()" class="bold">Collections</a>
+                <ul id="collapsible">
+                    <li><a href="#" onclick="showFurniture()">- Furniture</a></li>
+                    <li><a href="#" onclick="showPeople()"> - People</a></li>
+                    <li><a href="#" onclick="showInterior()"> - Interior</a></li>
+                    <li><a href="#" onclick="showObjects()"> - Objects</a></li>
+                    <li><a href="#" onclick="showMisc()"> - Misc</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="bold" onclick="showAbout()">About</a></li>
+        </ul>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <i class="fab fa-instagram" id="instagramIcon"></i><span id="instagramText">huang.jia.xin</span> 
+        <i class="far fa-envelope" id="emailIcon"></i>  <span id="emailText">michellejxhuang@gmail.com</span>
+    </div>
     
-
-
+    
+    <div id="about">
+        Michelle Huang is a design student at the Rhode Island School of Design. <br>
+        Take a look through her collections! <br>
+        <br>
+        :D
+    </div>
 
     <div id="giraffePicture">
         <img src="images/giraffeMachine.jpg" alt="">

@@ -8,6 +8,38 @@
     left: 100px;
     top: 130px;
 }
+
+#about {
+    display: none;
+    position: absolute;
+    left: 300px;
+    top:200px;
+}
+#instagramIcon {
+    position: absolute;
+    left: 1px;
+    top: 300px;
+}
+
+#instagramText {
+    position: absolute;
+    left: 21px;
+    top: 300px;
+    font-size: 11px;
+}
+
+#emailIcon {
+    position: absolute;
+    left: 0px;
+    top: 330px;    
+}
+
+#emailText {
+    position: absolute;
+    left: 20px;
+    top: 330px;
+    font-size: 11px;
+}
 img {
     max-height: 100%;
     max-width: auto;
@@ -17,7 +49,7 @@ img {
     position: absolute;
     left: 350px;
     top: 170px;
-    width: 1600px;
+    width: 1000px;
     height: 300px;
     display: none;
     z-index: -1;
@@ -169,7 +201,7 @@ button {
     position: absolute;
     left: 350px;
     top: 170px;
-    width: 1600px;
+    width: 1000px;
     height: 300px;
     display: block;
     z-index: -1;
@@ -256,7 +288,7 @@ button {
     position: absolute;
     left: 350px;
     top: 170px;
-    width: 1600px;
+    width: 1000px;
     height: 300px;
     display: none;
     z-index: -1;
@@ -367,7 +399,7 @@ button {
     position: absolute;
     left: 350px;
     top: 170px;
-    width: 1600px;
+    width: 1000px;
     height: 300px;
     display: none;
     z-index: -1;
@@ -454,7 +486,7 @@ button {
     position: absolute;
     left: 350px;
     top: 170px;
-    width: 1600px;
+    width: 1000px;
     height: 300px;
     display: none;
     z-index: -1;
@@ -573,7 +605,7 @@ button{
 #giraffePicture {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 606px;
     height: 600px;
     display: none;
@@ -583,7 +615,7 @@ button{
 #giraffeDescription {
     position: absolute;
     left: 956px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -593,7 +625,7 @@ button{
 #alphabetPicture {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 440px;
     height: 600px;
     display: none;
@@ -603,7 +635,7 @@ button{
 #alphabetDescription {
     position: absolute;
     left: 790px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -613,7 +645,7 @@ button{
 #buddhaPicture {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 440px;
     height: 600px;
     display: none;
@@ -623,7 +655,7 @@ button{
 #buddhaDescription {
     position: absolute;
     left: 790px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -633,7 +665,7 @@ button{
 #teapotPicture {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 440px;
     height: 600px;
     display: none;
@@ -643,7 +675,7 @@ button{
 #teapotDescription {
     position: absolute;
     left: 790px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -656,7 +688,7 @@ button{
 #s1p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 800px;
     height: 600px;
     display: none;
@@ -666,7 +698,7 @@ button{
 #s1d {
     position: absolute;
     left: 1150px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -676,7 +708,7 @@ button{
 #s2p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 800px;
     height: 600px;
     display: none;
@@ -686,7 +718,7 @@ button{
 #s2d {
     position: absolute;
     left: 1150px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -696,7 +728,7 @@ button{
 #s3p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 450px;
     height: 600px;
     display: none;
@@ -706,7 +738,7 @@ button{
 #s3d {
     position: absolute;
     left: 800px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -719,7 +751,7 @@ button{
 #r1p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 450px;
     height: 600px;
     display: none;
@@ -729,7 +761,7 @@ button{
 #r1d {
     position: absolute;
     left: 800px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -739,7 +771,7 @@ button{
 #r2p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 462px;
     height: 600px;
     display: none;
@@ -749,7 +781,7 @@ button{
 #r2d {
     position: absolute;
     left: 812px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -759,7 +791,7 @@ button{
 #r3p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 422px;
     height: 600px;
     display: none;
@@ -769,7 +801,7 @@ button{
 #r3d {
     position: absolute;
     left: 772px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -781,7 +813,7 @@ button{
 #b1p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 412px;
     height: 600px;
     display: none;
@@ -791,7 +823,7 @@ button{
 #b1d {
     position: absolute;
     left: 762px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -801,7 +833,7 @@ button{
 #b2p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 406px;
     height: 600px;
     display: none;
@@ -811,7 +843,7 @@ button{
 #b2d {
     position: absolute;
     left: 756px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -821,7 +853,7 @@ button{
 #b3p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 410px;
     height: 600px;
     display: none;
@@ -831,7 +863,7 @@ button{
 #b3d {
     position: absolute;
     left: 760px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -841,7 +873,7 @@ button{
 #b4p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 406px;
     height: 600px;
     display: none;
@@ -851,7 +883,7 @@ button{
 #b4d {
     position: absolute;
     left: 756px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -864,7 +896,7 @@ button{
 #f1p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 484px;
     height: 600px;
     display: none;
@@ -874,7 +906,7 @@ button{
 #f1d {
     position: absolute;
     left: 834px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -884,7 +916,7 @@ button{
 #f2p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 702px;
     height: 600px;
     display: none;
@@ -894,7 +926,7 @@ button{
 #f2d {
     position: absolute;
     left: 1052px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;
@@ -904,7 +936,7 @@ button{
 #f3p {
     position: absolute;
     left: 350px;
-    top: 170px;
+    top: 70px;
     width: 840px;
     height: 600px;
     display: none;
@@ -914,7 +946,7 @@ button{
 #f3d {
     position: absolute;
     left: 1190px;
-    top: 170px;
+    top: 70px;
     width: 300px;
     height: 600px;
     display: none;

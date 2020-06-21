@@ -16,12 +16,50 @@ function expand() {
     }
 }
 
+function showContact(){
+
+}
+
 function showFurniture(){
     document.getElementById('furniture').style.display = 'block';
     document.getElementById('body').style.display = 'none';
     document.getElementById('misc').style.display = 'none';
     document.getElementById('spoon').style.display = 'none';
     document.getElementById('room').style.display = 'none';
+    document.getElementById('giraffePicture').style.display = 'none';
+    document.getElementById('giraffeDescription').style.display = 'none';
+    document.getElementById('alphabetPicture').style.display = 'none';
+    document.getElementById('alphabetDescription').style.display = 'none';
+    document.getElementById('buddhaPicture').style.display = 'none';
+    document.getElementById('buddhaDescription').style.display = 'none';
+    document.getElementById('teapotPicture').style.display = 'none';
+    document.getElementById('teapotDescription').style.display = 'none';
+    document.getElementById('b1d').style.display = 'none';
+    document.getElementById('b1p').style.display = 'none';
+    document.getElementById('b2d').style.display = 'none';
+    document.getElementById('b2p').style.display = 'none';
+    document.getElementById('b3d').style.display = 'none';
+    document.getElementById('b3p').style.display = 'none';
+    document.getElementById('b4d').style.display = 'none';
+    document.getElementById('b4p').style.display = 'none';
+    document.getElementById('r1d').style.display = 'none';
+    document.getElementById('r1p').style.display = 'none';
+    document.getElementById('r2d').style.display = 'none';
+    document.getElementById('r2p').style.display = 'none';
+    document.getElementById('r3d').style.display = 'none';
+    document.getElementById('r3p').style.display = 'none';
+    document.getElementById('s1d').style.display = 'none';
+    document.getElementById('s1p').style.display = 'none';
+    document.getElementById('s2d').style.display = 'none';
+    document.getElementById('s2p').style.display = 'none';
+    document.getElementById('s3d').style.display = 'none';
+    document.getElementById('s3p').style.display = 'none';
+    document.getElementById('f1d').style.display = 'none';
+    document.getElementById('f1p').style.display = 'none';
+    document.getElementById('f2d').style.display = 'none';
+    document.getElementById('f2p').style.display = 'none';
+    document.getElementById('f3d').style.display = 'none';
+    document.getElementById('f3p').style.display = 'none';
 }
 
 function showPeople(){
@@ -30,6 +68,40 @@ function showPeople(){
     document.getElementById('misc').style.display = 'none';
     document.getElementById('spoon').style.display = 'none';
     document.getElementById('room').style.display = 'none';
+    document.getElementById('giraffePicture').style.display = 'none';
+    document.getElementById('giraffeDescription').style.display = 'none';
+    document.getElementById('alphabetPicture').style.display = 'none';
+    document.getElementById('alphabetDescription').style.display = 'none';
+    document.getElementById('buddhaPicture').style.display = 'none';
+    document.getElementById('buddhaDescription').style.display = 'none';
+    document.getElementById('teapotPicture').style.display = 'none';
+    document.getElementById('teapotDescription').style.display = 'none';
+    document.getElementById('b1d').style.display = 'none';
+    document.getElementById('b1p').style.display = 'none';
+    document.getElementById('b2d').style.display = 'none';
+    document.getElementById('b2p').style.display = 'none';
+    document.getElementById('b3d').style.display = 'none';
+    document.getElementById('b3p').style.display = 'none';
+    document.getElementById('b4d').style.display = 'none';
+    document.getElementById('b4p').style.display = 'none';
+    document.getElementById('r1d').style.display = 'none';
+    document.getElementById('r1p').style.display = 'none';
+    document.getElementById('r2d').style.display = 'none';
+    document.getElementById('r2p').style.display = 'none';
+    document.getElementById('r3d').style.display = 'none';
+    document.getElementById('r3p').style.display = 'none';
+    document.getElementById('s1d').style.display = 'none';
+    document.getElementById('s1p').style.display = 'none';
+    document.getElementById('s2d').style.display = 'none';
+    document.getElementById('s2p').style.display = 'none';
+    document.getElementById('s3d').style.display = 'none';
+    document.getElementById('s3p').style.display = 'none';
+    document.getElementById('f1d').style.display = 'none';
+    document.getElementById('f1p').style.display = 'none';
+    document.getElementById('f2d').style.display = 'none';
+    document.getElementById('f2p').style.display = 'none';
+    document.getElementById('f3d').style.display = 'none';
+    document.getElementById('f3p').style.display = 'none';
 }
 
 function showInterior(){
@@ -38,6 +110,40 @@ function showInterior(){
     document.getElementById('misc').style.display = 'none';
     document.getElementById('spoon').style.display = 'none';
     document.getElementById('room').style.display = 'block';
+    document.getElementById('giraffePicture').style.display = 'none';
+    document.getElementById('giraffeDescription').style.display = 'none';
+    document.getElementById('alphabetPicture').style.display = 'none';
+    document.getElementById('alphabetDescription').style.display = 'none';
+    document.getElementById('buddhaPicture').style.display = 'none';
+    document.getElementById('buddhaDescription').style.display = 'none';
+    document.getElementById('teapotPicture').style.display = 'none';
+    document.getElementById('teapotDescription').style.display = 'none';
+    document.getElementById('b1d').style.display = 'none';
+    document.getElementById('b1p').style.display = 'none';
+    document.getElementById('b2d').style.display = 'none';
+    document.getElementById('b2p').style.display = 'none';
+    document.getElementById('b3d').style.display = 'none';
+    document.getElementById('b3p').style.display = 'none';
+    document.getElementById('b4d').style.display = 'none';
+    document.getElementById('b4p').style.display = 'none';
+    document.getElementById('r1d').style.display = 'none';
+    document.getElementById('r1p').style.display = 'none';
+    document.getElementById('r2d').style.display = 'none';
+    document.getElementById('r2p').style.display = 'none';
+    document.getElementById('r3d').style.display = 'none';
+    document.getElementById('r3p').style.display = 'none';
+    document.getElementById('s1d').style.display = 'none';
+    document.getElementById('s1p').style.display = 'none';
+    document.getElementById('s2d').style.display = 'none';
+    document.getElementById('s2p').style.display = 'none';
+    document.getElementById('s3d').style.display = 'none';
+    document.getElementById('s3p').style.display = 'none';
+    document.getElementById('f1d').style.display = 'none';
+    document.getElementById('f1p').style.display = 'none';
+    document.getElementById('f2d').style.display = 'none';
+    document.getElementById('f2p').style.display = 'none';
+    document.getElementById('f3d').style.display = 'none';
+    document.getElementById('f3p').style.display = 'none';
 }
 
 function showObjects(){
@@ -46,6 +152,40 @@ function showObjects(){
     document.getElementById('misc').style.display = 'none';
     document.getElementById('spoon').style.display = 'block';
     document.getElementById('room').style.display = 'none';
+    document.getElementById('giraffePicture').style.display = 'none';
+    document.getElementById('giraffeDescription').style.display = 'none';
+    document.getElementById('alphabetPicture').style.display = 'none';
+    document.getElementById('alphabetDescription').style.display = 'none';
+    document.getElementById('buddhaPicture').style.display = 'none';
+    document.getElementById('buddhaDescription').style.display = 'none';
+    document.getElementById('teapotPicture').style.display = 'none';
+    document.getElementById('teapotDescription').style.display = 'none';
+    document.getElementById('b1d').style.display = 'none';
+    document.getElementById('b1p').style.display = 'none';
+    document.getElementById('b2d').style.display = 'none';
+    document.getElementById('b2p').style.display = 'none';
+    document.getElementById('b3d').style.display = 'none';
+    document.getElementById('b3p').style.display = 'none';
+    document.getElementById('b4d').style.display = 'none';
+    document.getElementById('b4p').style.display = 'none';
+    document.getElementById('r1d').style.display = 'none';
+    document.getElementById('r1p').style.display = 'none';
+    document.getElementById('r2d').style.display = 'none';
+    document.getElementById('r2p').style.display = 'none';
+    document.getElementById('r3d').style.display = 'none';
+    document.getElementById('r3p').style.display = 'none';
+    document.getElementById('s1d').style.display = 'none';
+    document.getElementById('s1p').style.display = 'none';
+    document.getElementById('s2d').style.display = 'none';
+    document.getElementById('s2p').style.display = 'none';
+    document.getElementById('s3d').style.display = 'none';
+    document.getElementById('s3p').style.display = 'none';
+    document.getElementById('f1d').style.display = 'none';
+    document.getElementById('f1p').style.display = 'none';
+    document.getElementById('f2d').style.display = 'none';
+    document.getElementById('f2p').style.display = 'none';
+    document.getElementById('f3d').style.display = 'none';
+    document.getElementById('f3p').style.display = 'none';
 }
 
 function showMisc(){
@@ -54,6 +194,40 @@ function showMisc(){
     document.getElementById('misc').style.display = 'block';
     document.getElementById('spoon').style.display = 'none';
     document.getElementById('room').style.display = 'none';
+    document.getElementById('giraffePicture').style.display = 'none';
+    document.getElementById('giraffeDescription').style.display = 'none';
+    document.getElementById('alphabetPicture').style.display = 'none';
+    document.getElementById('alphabetDescription').style.display = 'none';
+    document.getElementById('buddhaPicture').style.display = 'none';
+    document.getElementById('buddhaDescription').style.display = 'none';
+    document.getElementById('teapotPicture').style.display = 'none';
+    document.getElementById('teapotDescription').style.display = 'none';
+    document.getElementById('b1d').style.display = 'none';
+    document.getElementById('b1p').style.display = 'none';
+    document.getElementById('b2d').style.display = 'none';
+    document.getElementById('b2p').style.display = 'none';
+    document.getElementById('b3d').style.display = 'none';
+    document.getElementById('b3p').style.display = 'none';
+    document.getElementById('b4d').style.display = 'none';
+    document.getElementById('b4p').style.display = 'none';
+    document.getElementById('r1d').style.display = 'none';
+    document.getElementById('r1p').style.display = 'none';
+    document.getElementById('r2d').style.display = 'none';
+    document.getElementById('r2p').style.display = 'none';
+    document.getElementById('r3d').style.display = 'none';
+    document.getElementById('r3p').style.display = 'none';
+    document.getElementById('s1d').style.display = 'none';
+    document.getElementById('s1p').style.display = 'none';
+    document.getElementById('s2d').style.display = 'none';
+    document.getElementById('s2p').style.display = 'none';
+    document.getElementById('s3d').style.display = 'none';
+    document.getElementById('s3p').style.display = 'none';
+    document.getElementById('f1d').style.display = 'none';
+    document.getElementById('f1p').style.display = 'none';
+    document.getElementById('f2d').style.display = 'none';
+    document.getElementById('f2p').style.display = 'none';
+    document.getElementById('f3d').style.display = 'none';
+    document.getElementById('f3p').style.display = 'none';
 }
 
 /* body buttons */
